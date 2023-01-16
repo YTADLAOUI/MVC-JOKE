@@ -1,4 +1,5 @@
 <?php
+require_once './autoload.php';
 require_once './controllers/HomeController.php';
 $home= new HomeController();
 $pages= ['add','update','home','delete'];
